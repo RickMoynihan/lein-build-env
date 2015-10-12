@@ -4,5 +4,4 @@
   :url "https://github.com/rickmoynihan/lein-build-env"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :eval-in-leiningen true
-  :plugins [[lein-build-env "0.1.0-SNAPSHOT"]])
+  :eval-in-leiningen true)
