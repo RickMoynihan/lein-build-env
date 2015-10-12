@@ -24,12 +24,8 @@ managing version numbers.
 
 # Example Usage
 
-Put `[lein-build-env "1.0.0"]` into the `:plugins` vector of your `:user`
-profile.
-
-Use this for project-level plugins:
-
-Put `[lein-build-env "1.0.0"]` into the `:plugins` vector of your project.clj.
+Put `[lein-build-env "1.0.0"]` into the `:plugins` vector of your `project.clj`
+or `:user` profile.
 
 This simple leiningen middleware rewrites the project map with a version number
 supplied by a `BUILD_NUMBER` environment variable.
