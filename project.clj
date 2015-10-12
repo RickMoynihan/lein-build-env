@@ -1,4 +1,4 @@
-(defproject lein-build-env "1.0.0-SNAPSHOT"
+(defproject lein-build-env "1.0.0"
   :description "Middleware to Rewrite part of a leiningen build coordinate with
   a build number supplied by an environment variable."
   :url "https://github.com/rickmoynihan/lein-build-env"
