@@ -1,8 +1,16 @@
 ## Description
 
 This simple leiningen middleware rewrites the project map with a version number
-supplied by a `BUILD_NUMBER` environment variable.  Unlike some alternative
-middlewares it does not change the `project.clj` on disk.
+supplied by a `BUILD_NUMBER` environment variable.  It does not change the
+`project.clj` on disk.
+
+It is intended to help you create repeatable builds out of SNAPSHOT builds with
+your CI/CD environment.
+
+This plugin is intended to be used along with the use of a plugin like
+[lein-ancient](https://github.com/xsc/lein-ancient) in downstream projects.
+[lein-ancient](https://github.com/xsc/lein-ancient) can then be used to update
+to the newer build.
 
 ## Why use it?
 
